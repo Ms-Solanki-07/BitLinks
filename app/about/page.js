@@ -14,7 +14,7 @@ const About = () => {
                     With BitLinks, you can generate custom short URLs, track link performance, and easily share your links across various platforms.
                 </p>
                 <p className='text-lg'>
-                    Whether you're a business looking to promote your products or an individual wanting to share content, BitLinks makes it simple and effective.
+                    Whether you are a business looking to promote your products or an individual wanting to share content, BitLinks makes it simple and effective.
                 </p>
             </div>
             {/* follow us - following button for social media profile*/}
@@ -37,7 +37,7 @@ const About = () => {
                 <h1 className='text-2xl font-bold text-center'>Contribute to BitLinks</h1>
                 <p className='text-lg'>
                     BitLinks is an open-source project, and we welcome contributions from the community.
-                    If you're interested in helping us improve the service, check out our GitHub repository.
+                    If you are interested in helping us improve the service, check out our GitHub repository.
                 </p>
                 <p className='text-lg'>
                     Your contributions can help us add new features, fix bugs, and enhance the overall user experience.
