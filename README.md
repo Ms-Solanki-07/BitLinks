@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 BitLinks - URL Shortener
 
-## Getting Started
+**BitLinks** is a modern, full-stack web application for shortening URLs and managing your links with ease. Built using **Next.js** , **MongoDB** and **Tailwind CSS**, BitLinks offers a clean, responsive interface for creating, sharing, and tracking short links.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧩 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ✂️ Instantly shorten long URLs
+- 📋 Copy short links to clipboard
+- 📊 Track and manage your links (coming soon)
+- ⚡ Fast, responsive UI with Tailwind CSS
+- 🔗 Easy navigation with Next.js routing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Tech Stack
 
-## Learn More
+### Frontend
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js `^14.x`
+- React
+- Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Backend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js or Next.js API routes
+- MongoDB 
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+- Node.js and npm installed
+
+---
+
+### 🔧 Installation - How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Ms-Solanki-07/BitLinks.git
+   cd BitLinks
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   The app will be available at [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌐 API Endpoints (if using backend)
+
+| Method | Endpoint      | Description             |
+|--------|--------------|-------------------------|
+| POST   | `/api/generate` | Create a short link     |
+
+---
+
+## 🛡 Security Note
+
+⚠️ This project is for educational/demo purposes only.  
+For production use, consider adding:
+
+- User authentication
+- Rate limiting
+- HTTPS configuration
+- Link analytics and expiration
+
+---
+
+## ✍️ Authors
+
+- Ms Solanki - [GitHub](https://github.com/Ms-Solanki-07)
+
+---
+
+## 🎉 Follow Us
+
+Stay connected and get the latest updates:
+- [LinkedIn](https://www.linkedin.com/in/ms-solanki-07-ms/)
+- [Twitter](https://x.com/Ms_Solanki_07)
+- [GitHub](https://github.com/Ms-Solanki-07)
+- [Instagram](https://www.instagram.com/ms_solanki_07)
+
+---
